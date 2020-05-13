@@ -53,11 +53,8 @@ class RandCom extends React.Component{
       "Mae West",
       "Mahatma Gandhi"
     ];
-    var firstQuote = randQuote[this.state.index];
-    var firstAuthor = randAuth[this.state.index];
-    
-      firstQuote = firstQuote && firstQuote.body;
-      firstAuthor = firstAuthor && firstAuthor.email;
+    const firstQuote = randQuote[this.state.index];
+    const firstAuthor = randAuth[this.state.index];
     
     return (
       <div className="container-fluid" id="quote-box">
@@ -68,7 +65,7 @@ class RandCom extends React.Component{
           - <span id="author" onChange={this.newAuthor} value={this.state.author}>{firstAuthor}</span>
         </div>
         <div className="row">
-          <a href={'https://twitter.com/intent/tweet?text=${firstQuote}--${firstAuthor}'} id="tweet-quote" target="_blank" rel="noopener noreferrer">
+          <a href={'https://twitter.com/intent/tweet?text=$firstQuote--$firstAuthor'} id="tweet-quote" target="_blank" rel="noopener noreferrer">
             <div className="col-xs-6">
               <button className="btn btn-default">
                 <i className="fa fa-twitter"></i> Tweet
