@@ -65,7 +65,7 @@ class RandCom extends React.Component{
           - <span id="author" onChange={this.newAuthor} value={this.state.author}>{firstAuthor}</span>
         </div>
         <div className="row">
-          <a href={'https://twitter.com/intent/tweet?text=firstQuote--firstAuthor'} id="tweet-quote" target="_blank" rel="noopener noreferrer">
+          <a href={'https://twitter.com/intent/tweet?text={firstQuote}--{firstAuthor}'} id="tweet-quote" target="_blank" rel="noopener noreferrer">
             <div className="col-xs-6">
               <button className="btn btn-default">
                 <i className="fa fa-twitter"></i> Tweet
