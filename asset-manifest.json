@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/quoteApp/static/css/main.8829ddaf.chunk.css",
-    "main.js": "/quoteApp/static/js/main.476abac2.chunk.js",
-    "main.js.map": "/quoteApp/static/js/main.476abac2.chunk.js.map",
+    "main.js": "/quoteApp/static/js/main.cfb048d0.chunk.js",
+    "main.js.map": "/quoteApp/static/js/main.cfb048d0.chunk.js.map",
     "runtime-main.js": "/quoteApp/static/js/runtime-main.615521a0.js",
     "runtime-main.js.map": "/quoteApp/static/js/runtime-main.615521a0.js.map",
     "static/js/2.dca88d1c.chunk.js": "/quoteApp/static/js/2.dca88d1c.chunk.js",
     "static/js/2.dca88d1c.chunk.js.map": "/quoteApp/static/js/2.dca88d1c.chunk.js.map",
     "index.html": "/quoteApp/index.html",
-    "precache-manifest.7b0e2e1fb68979cbd4a88ca966e3c595.js": "/quoteApp/precache-manifest.7b0e2e1fb68979cbd4a88ca966e3c595.js",
+    "precache-manifest.b141a2e69f23608944b22b4a16aa5b17.js": "/quoteApp/precache-manifest.b141a2e69f23608944b22b4a16aa5b17.js",
     "service-worker.js": "/quoteApp/service-worker.js",
     "static/css/main.8829ddaf.chunk.css.map": "/quoteApp/static/css/main.8829ddaf.chunk.css.map",
     "static/js/2.dca88d1c.chunk.js.LICENSE.txt": "/quoteApp/static/js/2.dca88d1c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.615521a0.js",
     "static/js/2.dca88d1c.chunk.js",
     "static/css/main.8829ddaf.chunk.css",
-    "static/js/main.476abac2.chunk.js"
+    "static/js/main.cfb048d0.chunk.js"
   ]
 }
